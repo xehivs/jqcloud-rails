@@ -21,6 +21,7 @@
     var default_options = {
       width: $this.width(),
       height: $this.height(),
+      autoResize: true,
       center: {
         x: ((options && options.width) ? options.width : $this.width()) / 2.0,
         y: ((options && options.height) ? options.height : $this.height()) / 2.0
